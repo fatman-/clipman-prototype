@@ -16,7 +16,6 @@ module Clipboard
 
   def self.paste
     # Using Mac OS's command line tool 'pbpaste' for pasting the current clip
-
     `pbpaste`
   end
 
